@@ -1,0 +1,1 @@
+É necessária uma pasta com os arquivos png de cada bandeira para que a página funcione adequadamente.

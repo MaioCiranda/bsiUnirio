@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo.css" rel="stylesheet">
+    <script src="ListadeProdutos.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="fundo" id="fundo">
+        <div class="titulo">Lista de Produtos</div>
+        <table id="lista_produtos">
+            <tr class="cabeçalho">
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </table>
+        <div class="botões_de_baixo" id="botoes_lista">
+            <button type="button" id="inserirItem">Inserir novo item</button>
+            <button type="button" id="excluirTudo">Excluir todos</button>
+        </div>
+        <div class="add_produto" id="add_produto">
+            <form name="adiciona" action="ListadeProdutos.js" method="get">
+                <div>
+                    <label for="descricao" id="entrada">Descrição:</label>
+                    <input type="text" id="descricao" name="text" size="40"> 
+                </div>
+                <div>
+                    <label for="preco" id="entrada">Preço:       </label>
+                    <input type="number" id="preco" name="preco">
+                </div>
+                <div class="botões_de_baixo">
+                    <button type="submit" id="salvar">Salvar</button>
+                    <button type="button" id="cancelar">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

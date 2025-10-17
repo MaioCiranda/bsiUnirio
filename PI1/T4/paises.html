@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="paises.css" type="text/css" /> 
+    <script type="module" src="paises.js" defer></script>
+    <title>paises</title>
+</head>
+<body>
+     <header id="titulo" class="titulo">
+    <h1>Países do Mundo</h1>
+    </header>
+    <div class="corpo">
+        <div id="pesquisa" class="pesquisa">
+            <form id="filtro">
+                <label for="listaRegiao">Escolha uma opção:</label>
+                <select id="listaRegiao" name="listaRegiao">
+                    <option value="">Todas</option>
+                    <option value="EU">Europa</option>
+                    <option value="NA">America do Norte</option>
+                    <option value="SA">America do Sul</option>
+                    <option value="AS">Asia</option>
+                    <option value="AF">Africa</option>
+                    <option value="OC">Oceania</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </form>
+            <form id="Paginacao">
+                <label for="qtdPaises">Paginação:</label>
+                <input type="text" id="qtdPaises">
+            </form>
+            <form id="buscaNome">
+                <label for="nomePais">Nome do País:</label>
+                <input type="text" id="nomePais">
+            </form>
+        </div>
+        <div id="demonstracao" class="demonstracao">
+            <span><h2>Lista de Países</h2></span>
+            <span id="layouts">
+                <button id="modoLista" class="modo"><img src="lista.jpeg"></button>
+                <button id="modoBloco" class="modo"><img src="bloco.jpeg"></button>
+            </span>
+            <hr>
+            <div id="mostraPaises">
+            <section id="paises"></section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

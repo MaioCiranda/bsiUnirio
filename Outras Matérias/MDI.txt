@@ -1,0 +1,296 @@
+-- Reprodução da base da base de dados da steam feita para a matéria Modelagem da Informação
+
+CREATE TABLE jogo (
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(50) NOT NULL UNIQUE,
+class_etaria INT,
+categoria VARCHAR(50),
+preco FLOAT NOT NULL DEFAULT 0
+);
+CREATE TABLE usuario (
+id INT PRIMARY KEY AUTO_INCREMENT,
+username VARCHAR(50) NOT NULL UNIQUE,
+email VARCHAR(50) NOT NULL UNIQUE,
+nivel INT NOT NULL DEFAULT 0,
+saldo FLOAT NOT NULL DEFAULT 0
+);
+CREATE TABLE compra_jogo (
+usuario_id INT,
+FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+jogo_id INT,
+FOREIGN KEY (jogo_id) REFERENCES jogo(id),
+preco FLOAT
+);
+CREATE TABLE desenvolvedora (
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(50) NOT NULL
+);
+CREATE TABLE desenvolve (
+desenvolvedora_id INT,
+FOREIGN KEY (desenvolvedora_id) REFERENCES desenvolvedora(id),
+jogo_id INT,
+FOREIGN KEY (jogo_id) REFERENCES jogo(id)
+);
+CREATE TABLE publica (
+desenvolvedora_id INT,
+FOREIGN KEY (desenvolvedora_id) REFERENCES desenvolvedora(id),
+jogo_id INT,
+FOREIGN KEY (jogo_id) REFERENCES jogo(id)
+);
+CREATE TABLE dlc (
+id INT PRIMARY KEY AUTO_INCREMENT,
+jogo_base_id INT,
+FOREIGN KEY (jogo_base_id) REFERENCES jogo(id),
+nome VARCHAR(50) NOT NULL,
+preco FLOAT
+);
+CREATE TABLE compra_dlc (
+usuario_id INT,
+FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+dlc_id INT,
+FOREIGN KEY (dlc_id) REFERENCES dlc(id),
+preco FLOAT
+);
+CREATE TABLE achievement (
+id INT PRIMARY KEY AUTO_INCREMENT,
+jogo_id INT,
+FOREIGN KEY (jogo_id) REFERENCES jogo(id),
+nome VARCHAR(50)
+);
+CREATE TABLE conquista (
+usuario_id INT,
+FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+achievement_id INT,
+FOREIGN KEY (achievement_id) REFERENCES achievement(id)
+);
+CREATE TABLE amizade (
+usuario_id INT,
+FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+usuario_id1 INT,
+FOREIGN KEY (usuario_id1) REFERENCES usuario(id)
+);
+CREATE TABLE grupo (
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(50)
+);
+CREATE TABLE membro (
+usuario_id INT,
+FOREIGN KEY (usuario_id) REFERENCES usuario(id),
+grupo_id INT,
+FOREIGN KEY (grupo_id) REFERENCES grupo(id),
+dono TINYINT
+);
+
+Abaixo estão exibidos os scripts de inserção na tabela:
+INSERT INTO jogo(nome, class_etaria, categoria, preco)
+VALUES ("Inscryption", 14, "terror", 49.99);
+INSERT INTO jogo (categoria, class_etaria, nome, preco)
+VALUES ("RPG", 18, "Cyberpunk2077", 100);
+INSERT INTO jogo (categoria, nome, preco)
+VALUES ("RPG", "Omori", 20);
+INSERT INTO jogo (categoria, nome, preco)
+VALUES ("RPG", "Undertale", 19.99);
+INSERT INTO jogo (categoria, nome, preco)
+VALUES ("FPS", "COD10", 200);
+INSERT INTO desenvolvedora(nome) VALUES ("Daniel Mullins Games");
+INSERT INTO desenvolvedora(nome) VALUES ("Devolver Digital");
+INSERT INTO desenvolvedora(nome) VALUES ("CD Projekt Red");
+INSERT INTO desenvolvedora(nome) VALUES ("OMOCAT");
+INSERT INTO desenvolvedora(nome) VALUES ("TOBYFOX");
+INSERT INTO desenvolvedora(nome) VALUES ("precosaltosTM");
+INSERT INTO desenvolve(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Inscryption"),
+(SELECT id FROM desenvolvedora WHERE nome = "Daniel Mullins Games")
+);
+INSERT INTO publica(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Inscryption"),
+(SELECT id FROM desenvolvedora WHERE nome = "Devolver Digital")
+);
+INSERT INTO desenvolve(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Cyberpunk2077"),
+(SELECT id FROM desenvolvedora WHERE nome = "CD Projekt Red")
+);
+INSERT INTO publica(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Cyberpunk2077"),
+(SELECT id FROM desenvolvedora WHERE nome = "CD Projekt Red")
+);
+INSERT INTO desenvolve(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Omori"),
+(SELECT id FROM desenvolvedora WHERE nome = "OMOCAT")
+);
+INSERT INTO desenvolve(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Undertale"),
+(SELECT id FROM desenvolvedora WHERE nome = "TOBYFOX")
+);
+INSERT INTO desenvolve(jogo_id, desenvolvedora_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "COD10"),
+(SELECT id FROM desenvolvedora WHERE nome = "precosaltosTM")
+);
+INSERT INTO usuario (email, nivel, saldo, username)
+VALUES ("chocolatepato@gmail.com", 13, 0.00, "chocolatepato");
+INSERT INTO usuario (email, nivel, saldo, username)
+VALUES ("caio.mmf@gmail.com", 11, 0.00, "Maio Ciranda");
+INSERT INTO achievement (jogo_id, nome)
+VALUES ((SELECT id FROM jogo WHERE nome = "Cyberpunk2077"), "The Fool");
+INSERT INTO achievement (jogo_id, nome)
+VALUES ((SELECT id FROM jogo WHERE nome = "Inscryption"), "Squirrel
+Wrangler");
+INSERT INTO achievement (jogo_id, nome)
+VALUES ((SELECT id FROM jogo WHERE nome = "Inscryption"), "Gruesome
+Encore");
+INSERT INTO conquista (achievement_id, usuario_id)
+VALUES (
+(SELECT id FROM achievement WHERE nome = "Squirrel Wrangler" AND
+jogo_id = (SELECT id FROM jogo WHERE nome = "Inscryption")),
+(SELECT id FROM usuario WHERE username = "Maio Ciranda")
+);
+INSERT INTO conquista (achievement_id, usuario_id)
+VALUES (
+(SELECT id FROM achievement WHERE nome = "Gruesome Encore" AND
+jogo_id = (SELECT id FROM jogo WHERE nome = "Inscryption")),
+(SELECT id FROM usuario WHERE username = "Maio Ciranda")
+);
+INSERT INTO conquista (achievement_id, usuario_id)
+VALUES (
+(SELECT id FROM achievement WHERE nome = "The Fool" AND jogo_id =
+(SELECT id FROM jogo WHERE nome = "Cyberpunk2077")),
+(SELECT id FROM usuario WHERE username = "chocolatepato")
+);
+INSERT INTO amizade (usuario_id, usuario_id1)
+VALUES (
+(SELECT id FROM usuario WHERE username = "Maio Ciranda"),
+(SELECT id FROM usuario WHERE username = "chocolatepato")
+);
+INSERT INTO compra_jogo (jogo_id, preco, usuario_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Inscryption"),
+(SELECT preco FROM jogo WHERE nome = "Inscryption"),
+(SELECT id FROM usuario WHERE username = "Maio Ciranda")
+);
+INSERT INTO compra_jogo (jogo_id, preco, usuario_id)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Cyberpunk2077"),
+(SELECT preco FROM jogo WHERE nome = "Cyberpunk2077"),
+(SELECT id FROM usuario WHERE username = "chocolatepato")
+);
+INSERT INTO dlc (jogo_base_id, nome, preco)
+VALUES (
+(SELECT id FROM jogo WHERE nome = "Cyberpunk2077"),
+"Phantom Liberty",
+99.99
+);
+INSERT INTO compra_dlc (dlc_id, preco, usuario_id)
+VALUES (
+(SELECT id FROM dlc WHERE nome = "Phantom Liberty"),
+(SELECT preco FROM dlc WHERE nome = "Phantom Liberty"),
+(SELECT id FROM usuario WHERE username = "chocolatepato")
+);
+INSERT INTO grupo (nome) VALUE ("MDI");
+INSERT INTO membro (dono, grupo_id, usuario_id)
+VALUES (
+1,
+(SELECT id FROM grupo WHERE nome = "MDI"),
+(SELECT id FROM usuario WHERE username = "chocolatepato")
+);
+INSERT INTO membro (dono, grupo_id, usuario_id)
+VALUES (
+0,
+(SELECT id FROM grupo WHERE nome = "MDI"),
+(SELECT id FROM usuario WHERE username = "Maio Ciranda")
+);
+
+-- Atualiza preço de jogo específico
+UPDATE jogo
+SET preco = 100.99
+WHERE nome = "Cyberpunk2077";
+
+-- Atualiza saldo de usuários específicos
+UPDATE usuario
+SET saldo = CASE
+WHEN username = "chocolatepato" THEN saldo+1000
+ELSE saldo
+END
+WHERE username IN ("chocolatepato");
+
+UPDATE usuario
+INNER JOIN (
+SELECT usuario_id, SUM(jogo.preco) AS gastos_totais
+FROM compra_jogo
+INNER JOIN jogo ON jogo.id = compra_jogo.jogo_id
+GROUP BY usuario_id
+) AS gastos ON usuario.id = gastos.usuario_id
+SET saldo = CASE
+WHEN (usuario.saldo - gastos.gastos_totais) >= 0
+THEN usuario.saldo - gastos.gastos_totais
+ELSE 0
+END
+WHERE username IN ("chocolatepato");
+
+-- Remove desenvolvedora e vínculos
+DELETE FROM desenvolve
+WHERE desenvolvedora_id = (SELECT id FROM desenvolvedora WHERE nome =
+"precosaltosTM");
+DELETE FROM desenvolvedora WHERE (SELECT id FROM desenvolvedora
+WHERE nome = "precosaltosTM");
+
+-- Remove jogo e vínculos
+DELETE FROM desenvolve
+WHERE jogo_id = (SELECT id FROM jogo WHERE nome = "COD10");
+DELETE FROM jogo WHERE (SELECT id FROM jogo WHERE nome = "COD10");
+
+-- Relatório: jogos e DLCs dos usuários
+SELECT jogo.nome AS Jogos, dlc.nome AS DLC, usuario.username AS Usuario
+FROM usuario
+INNER JOIN (compra_jogo INNER JOIN jogo ON jogo.id = compra_jogo.jogo_id)
+ON compra_jogo.usuario_id = usuario.id
+LEFT JOIN compra_dlc ON compra_dlc.usuario_id = usuario.id
+LEFT JOIN dlc ON dlc.id = compra_dlc.dlc_id;
+
+-- Relatório: jogos e suas desenvolvedoras
+SELECT desenvolvedora.nome AS Empresa, jogo.nome AS Jogo_Desenvolvido
+FROM desenvolvedora
+INNER JOIN (desenvolve INNER JOIN jogo ON jogo.id = desenvolve.jogo_id)
+ON desenvolvedora.id = desenvolve.desenvolvedora_id;
+
+-- Conquistas de um usuário específico
+SELECT achievement.nome AS Conquistas
+FROM usuario
+INNER JOIN (conquista INNER JOIN achievement ON conquista.achievement_id =
+achievement.id)
+ON conquista.usuario_id = usuario.id
+WHERE usuario.username = "Maio Ciranda";
+
+-- Informações completas de um jogo específico
+SELECT jogo.nome AS Jogo, jogo.class_etaria AS "Classificação Etária",
+jogo.categoria AS Categoria,
+dev_dev.nome AS Desenvolvedora, pub_dev.nome AS Publicadora, jogo.preco AS
+Preço
+FROM jogo
+INNER JOIN (publica INNER JOIN desenvolvedora AS pub_dev ON
+publica.desenvolvedora_id = pub_dev.id)
+ON jogo.id = publica.jogo_id
+INNER JOIN (desenvolve INNER JOIN desenvolvedora AS dev_dev ON
+desenvolve.desenvolvedora_id = dev_dev.id)
+ON jogo.id = desenvolve.jogo_id
+WHERE jogo.nome = "Cyberpunk2077";
+
+-- Membros de um grupo
+SELECT usuario.username AS Usuário, membro.dono AS Dono
+FROM membro
+INNER JOIN usuario ON usuario.id = membro.usuario_id
+INNER JOIN grupo ON grupo.id = membro.grupo_id;
+
+-- Conquistas de usuários em jogos
+SELECT usuario.username AS Usuário, achievement.nome AS Conquista, jogo.nome
+AS Jogo
+FROM conquista
+INNER JOIN usuario ON usuario.id = conquista.usuario_id
+INNER JOIN achievement ON achievement.id = conquista.achievement_id
+INNER JOIN jogo ON jogo.id = achievement.jogo_id;

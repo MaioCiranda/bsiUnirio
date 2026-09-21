@@ -1,0 +1,35 @@
+Id,Base,Titulo,Ano,Categoria de item (QPS1)
+Id01,ACM,A Collaborative Consumption Digital Platform for Government Organizations using Design Science,2022,Recursos de infraestrutura de TI governamental
+Id02,ACM,Libraries of Things: Understanding the Challenges of Sharing Tangible Collections and the Opportunities for HCI,2023,Coleções de empréstimo (library of things)
+Id03,ACM,ResponTable: A Shared Desk Design For Psychological Ownership,2024,Mobiliário e postos de trabalho
+Id04,ACM,Roaming Objects: Encoding Digital Histories of Use into Shared Objects and Tools,2018,Ferramentas manuais e elétricas
+Id05,ACM,Social based Trust Management System for Resource Sharing Service,2018,Recursos genéricos (não especificado)
+Id06,ACM,Software Design of Shared Cabinet System Based on Raspberry Pi,2020,Objetos domésticos e pessoais
+Id07,ACM,TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems,2017,Objetos domésticos e pessoais
+Id08,ACM,You Can't Always Get What You Want: Challenges in P2P Resource Sharing,2016,Objetos domésticos e pessoais
+Id09,IEEE,A Network-based Stationeries Rental Service Performed by an Autonomous Mobile Robot,2002,Material de escritório
+Id10,IEEE,An User-Friendly Android based Application for Online Rental System,2021,Objetos domésticos e pessoais
+Id11,IEEE,Campus Rent: A Full-Stack Web Application for Item Renting in University Environments,2026,Multicategoria explícita
+Id12,IEEE,Design and Implementation of an Intelligent Management System for Consumables in Open Laboratory,2021,Equipamentos e instrumentos de laboratório
+Id13,IEEE,Design of Farm Machinery Rental Based Model "Farmers-I Connect",2023,Equipamentos agrícolas
+Id14,IEEE,Development of an Asset Tracking and Monitoring Scheme for a Household Item-Sharing Service,2019,Objetos domésticos e pessoais
+Id15,IEEE,Development of an Automated Laboratory Assets Inventory Control With Security System,2019,Equipamentos e instrumentos de laboratório
+Id16,IEEE,EzRenter: All In One Rental Platform with Blockchain-Powered Smart Contracts,2024,Multicategoria explícita
+Id17,IEEE,Harnessing Android Application for Agricultural Equipment Rental System,2025,Equipamentos agrícolas
+Id18,IEEE,Kaarya Setu: A Community Rental Marketplace for Sustainable Resource Utilization,2025,Multicategoria explícita
+Id19,IEEE,Lendr: A Military-Adapted Library-of-Things System for Secure Tool Sharing and Resource Optimization,2025,Ferramentas em contexto militar
+Id20,IEEE,Lenrow: A Blockchain Based Peer-to-Peer Product Lending and Borrowing System,2023,Objetos domésticos e pessoais
+Id21,IEEE,Machine Learning Based Item Recommendation System for Surplus Item Sharing System,2024,Multicategoria explícita
+Id22,IEEE,Microcontroller and Wireless Communication Based Smart Laboratory Box System Implementation,2020,Equipamentos e instrumentos de laboratório
+Id23,IEEE,Motivation and Drivers for Online Fashion Rental: Study by Social Networking Sites in Indonesia,2022,Vestuário e moda
+Id24,IEEE,Rentify: Leveraging Access-Based Consumption to Minimize Waste and Optimize Product Utilization,2025,Objetos domésticos e pessoais
+Id25,IEEE,Revolutionizing Farming with Innovative Equipment Rental System,2023,Equipamentos agrícolas
+Id26,IEEE,Share-IT: A Sharing Platform for a Smart Campus,2019,Eletrônicos e itens de estudo em campus
+Id27,IEEE,Take My Stuff: A Mobile Application for Sustainable Peer-to-Peer Item Sharing,2025,Objetos domésticos e pessoais
+Id28,IEEE,The Practical Application of IoT for Large-scale Instruments and Equipment Sharing Management Platform,2020,Equipamentos e instrumentos de laboratório
+Id29,IEEE,Tool Rental E-Commerce Platform - Go Tool,2023,Ferramentas manuais e elétricas
+Id30,IEEE,Tool Tracking System Design Using Quality Function Deployment Method for Vocational Education,2023,Equipamentos e instrumentos de laboratório
+Id31,IEEE,TOOLNEST: Intelligent Cloud Platform for Secure Tool Rental Systems,2026,Ferramentas manuais e elétricas
+Id32,IEEE,Towards Systematic Specification of Non-Functional Requirements for Sharing Economy Systems,2019,Recursos genéricos (não especificado)
+Id33,IEEE,Understanding the Sharing Economy: Drivers and Impediments for Participation in Peer-to-Peer Rental,2016,Recursos genéricos (não especificado)
+Id34,IEEE,Wardrobe Rentals: A Study of the Fashion Industry under Sharing Economy,2021,Vestuário e moda

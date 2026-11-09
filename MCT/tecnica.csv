@@ -1,0 +1,167 @@
+﻿Id;Funcionalidade;Localização;Trecho da reivindicação
+P001;Seguro;Reivindicação dependente;
+P001;Publicação de demandas e casamento oferta-procura;Reivindicação independente;
+P003;Publicação de demandas e casamento oferta-procura;Reivindicação independente;ning, on the data processing system, a first list of rental requests, said first list comprising a rental request, by a first p
+P004;Leilão ou lances pelo aluguel;Reivindicação independente;0 上記借主端末から、上記借主を識別する借主識別情報と、上記出品識別情報と共に、当 該出品識別情報に係る出品情報に対する入札を受信する入札受信手段と、 上記借主端末から受信した上記借主識別情報と上記出品識別情報とを関連付けて記憶す る第一の入札
+P006;Aluguel combinado com venda ou compra;Não verificado;
+P007;Avaliação entre usuários;Reivindicação independente;" reminding a borrower to return the borrowed goods; and generating for a lender a reputation score that rates the reputation b"
+P007;Pontuação de crédito ou índice de confiança;Reivindicação independente;
+P008;Caução (depósito de garantia);Reivindicação dependente;에 있어서, 상기 단계 (1)에서는 상기 관리자 단말기로부터 상기 대여 물품의 대여 기간에 따른 대여료 및 보증금 중 적어도 하나 이상을 더 입 력받아 저장하는 것을 특징으로 하는, 물품 대여 중개 서비스 제공 방법. 
+P008;Inspeção do item pelo intermediário;Somente descrita;
+P009;Pontuação de crédito ou índice de confiança;Reivindicação independente;【請求項１】 商品データベースと信頼度データベースを有する賃貸借サーバと、貸したい貸商品情報 を通信網を介して前記商品データベースに送信する貸主端末と、借り
+P009;Publicação de demandas e casamento oferta-procura;Reivindicação independente;信頼度データベースを有する賃貸借サーバと、貸したい貸商品情報 を通信網を介して前記商品データベースに送信する貸主端末と、借りたい借商品情報を前 記通信網を介して前記信頼度データベースに送信する借主端末とを備え、前記賃貸借サー バは前記商品データベー
+P010;Seguro;Reivindicação independente;by an includes receiving a payment of the rental cost which insurance provider , the method comprising : includes the cost of the
+P011;Leilão ou lances pelo aluguel;Reivindicação independente;"청구항 1 물품 전시를 위해 마련된 소정의 공간에 진열된 판매물품의 판매조건, 경매조건, 및 렌탈조건 중 적어도 하나를 온라인 서버에 업로드하는 물품정보 제공부; 소비자로부터 상기 진열된 판"
+P011;Aluguel combinado com venda ou compra;Reivindicação independente;"청구항 1 물품 전시를 위해 마련된 소정의 공간에 진열된 판매물품의 판매조건, 경매조건, 및 렌탈조건 중 적어도 하나를 온라인 서버에 업로드하는 물품정보 제공부; 소비자"
+P014;Cálculo de indenização por dano ou perda;Reivindicação dependente;상의 메시지를메인중개서버로전송하며, 메인중개서버는대여자와 이용자에게회수이상의 메시지를전송한후, 이용자로부터 보상메시지가수신되면, 대여자에게보상처리의메시지를 전송하는것을특징으로하는온오프라인이연계된재화대여 중개서비스방법. 
+P014;Inspeção do item pelo intermediário;Reivindicação independente;"계; (b) 상기재화가대여자로부터 오프라인 마켓샵으로 제공되면, 마켓샵의 관리서버가재화의정상적인상태여부에대한검수정보를 메인중개서버로전송하는 단계； (c) 상기검수정보가정상상태인경우, 메인중개서버가웹사이트를통해 상기등록된"
+P015;Caução (depósito de garantia);Reivindicação dependente;또는 상기 적어도 하나의 임차 조건은 상품의 종류, 상품의 임대금액, 상품의 임대기간, 상품의 임대를 위한 보증금 액수, 상품의 상태 정보 또는 거 래 희망 위치 중 어느 하나 이상인 상품 임대차 거래 중개 장치. 
+P016;Verificação de identidade;Reivindicação dependente;
+P017;Avaliação entre usuários;Somente descrita;
+P017;Compra coletiva com uso compartilhado;Reivindicação independente;1 . A computerized method for group purchasing and sharing , the method comprising : receiving , at a w
+P018;Inspeção do item pelo intermediário;Reivindicação dependente;"정보를 등록한 대여자단말기로 물품의 인도를 요청하는 물품인도요청부; 상기 요청에 따라 인도된 물품의 상태를 검수한 관리자단말기로부터 검수정보를 입력받아 대여정보의 게시에 대 해 인증하는 게시인증부;를 더 포함하고, 상기"
+P019;Caução (depósito de garantia);Reivindicação independente;" 제1 단계; 상기 서버가 대여 요청자 단말로부터 상기 대여 대상 물품에 대한 대여 요청 신호를 수신한 후 보증금 및 대여 료를 처리하는 제2 단계; 상기 서버가 상기 대여 제공자 단말에 제공하는 검수 애플리케이션을 통해"
+P019;Inspeção do item pelo intermediário;Reivindicação independente;"신호를 수신한 후 보증금 및 대여 료를 처리하는 제2 단계; 상기 서버가 상기 대여 제공자 단말에 제공하는 검수 애플리케이션을 통해 상기 대여 제공자 단말이 상기 대여 대상 물품에 대한 1차 검수를 수행하는 제3 단계;"
+P019;Aluguel combinado com venda ou compra;Reivindicação independente;"는 제5 단계; 대여 기간 종료 후 상기 서버가 상기 대여 요청자 단말의 요청 신호에 따라 기간 연장 또는 구매 여부를 결정하 는 제6 단계; 대여 기간 종료로 판단된 경우, 상기 대여 요청자 단말이 상기 검수 애플리케"
+P021;Publicação de demandas e casamento oferta-procura;Reivindicação independente;"震求 专所地址; F获取租赁方的租赁 根据所述关键字查 铭品的关键字， 所述关键字包括租赁 构品的品名及 匹配的承租方的求租信息,所述求租信息包括所 CN 105701699 A 权 利 BRK 书 2/2 页 计算模块,用于获取存储租赁物品的"
+P023;Avaliação entre usuários;Somente descrita;
+P024;Caução (depósito de garantia);Reivindicação independente;" 체결하거나, 매수를 요청한 회원과 매매계약을 체결 하는 물품임차매매계약 체결단계; 및 상기 물품중개서버는 보증금 및 임대료를 납부한 회원에게 해당 임대물품을 전달하고, 매매대금을 납부한 회원 에게 해당 매매물품을 전달하"
+P024;Seguro;Reivindicação independente;"체결단계; 및 상기 물품중개서버의 운영주체의 파산에 대비하기 위하여 임대물품 및 매매물품의 회수를 보증하는 보험을 보험 회사에 가입하는 보증보험가입단계; 를 수행하고, 상기 물품의 중개단계는, 상기 물품중개서버에 게시된"
+P024;Inspeção do item pelo intermediário;Reivindicação independente;중개방법에 있어서, 회원이 임대를 요청한 임대물품과 상기 물품중개서버가 상기 임대물품의 상태에 대해서 직접 검사한 검사결과를 포함하는 임대물품의 정보, 회원이 매매를 요청한 매매물품과 상기 물품중개서버가 상기 매매물품의
+P024;Resolução de disputas;Somente descrita;
+P024;Aluguel combinado com venda ou compra;Reivindicação independente;청구항 1 등록된 회원들 사이의 물품의 매매, 매수, 임대 및 임차를 물품중개서버가 중개하는 물품중개방법에 있어서, 회원이 임대를 요청한 임대물품과 상
+P025;Leilão ou lances pelo aluguel;Reivindicação independente;"상품 쉐어링정보중개서버(10) 로부터 신상품정보및사용순위별 또는소유에 대한다수의 쉐어링그룹모집에대한정보와, 입찰가격범위 정보를수신하여 열람하고, 사용기간선택및입찰가격정보를입력하여 전송하는유저단말기(2) 와; 상기신상품 "
+P025;Compra coletiva com uso compartilhado;Reivindicação independente;청구항1] 신상품 쉐어링정보중개서버(10) 로부터 신상품정보및사용순위별 또는소유에 대한다수의 쉐어링그룹모집에대한정보와, 입찰가격범위 정보를수신하여 열람하고, 사용기간선택및입찰가격정보를입력하여 전송하는유저단말기(
+P026;Leilão ou lances pelo aluguel;Não verificado;
+P026;Compra coletiva com uso compartilhado;Não verificado;
+P029;Publicação de demandas e casamento oferta-procura;Reivindicação independente;청구항 1 각각의 수요자단말기로부터 대여받고자 하는 수요 물품 정보를 입력받고, 각각의 공급자단말기로부터 대여하는 공급 물품 정보
+P030;Caução (depósito de garantia);Somente descrita;
+P030;Contrato eletrônico e registro em blockchain;Reivindicação independente;て、前記移動体に対する利用権 限を前記所有者から前記利用者に移転もしくは付与し、 前記所有者から受け付けた前記貸出条件をブロックチェーン上に記録し、 前記ブロックチェーンにおけるスマートコントラクトの処理によって、前記借入申請に対 する前記移動体の抽出およ
+P031;Monitoramento do item durante o uso;Não verificado;
+P031;Pontuação de crédito ou índice de confiança;Não verificado;
+P032;Monitoramento do item durante o uso;Reivindicação independente;" resource sharing system comprising: a resource including a sensor and an auxiliary facility; a resource management system con"
+P032;Pontuação de crédito ou índice de confiança;Reivindicação independente;", when the provider provides the resource, a mini- mum user trust grade necessary for a use permission of the user; comparing"
+P033;Caução (depósito de garantia);Reivindicação dependente;8.根据权利要求1所述的就近借还共享物品的运行系统,其特征在于,所述的供应用户 请求包括共享物品押金.租金.租借计价方式。 据权利要求1所述的就近借还共享物品的运行系统,其特征在于,所述的共享物品 为图书或雨伞。 
+P038;Contrato eletrônico e registro em blockchain;Reivindicação independente;8.一种用于智能匹配工程机械租赁电子合同的装置,其特征在于,包括: 工程机械匹配模块,用于根据第一对象的地理位置信息和请求数据匹配第二对象在 程机械租赁平台上发
+P039;Caução (depósito de garantia);Reivindicação independente;平台客户端通知共享摄像平台服务端，共享摄像平台服务端发送电子 版协议给双方，得到双方确认，承租方通过网络的方式预付租金和押金给共享摄像平台服 权 利 要 求 书 1/2 页 2 CN 109785063 A 2 务端，该单业务开始履行； 第六步
+P039;Avaliação entre usuários;Reivindicação dependente;5.根据权利要求2所述的一种共享摄像装置平台系统，其特征在于，所述共享摄像平台 客户端还包括信用评分模块，用于出租方和/或承租方对对方此次租赁过程中的行为进行 评分。 
+P040;Publicação de demandas e casamento oferta-procura;Reivindicação independente;"信息,所述物品空闲信息至少包括物品标识、物品名 品模式; 将所述物品名称和物品标识展示于所述物品共享平台 ,将物 式,供需求者获取所述物品标识对应的物品; 需求请求携带 有者联系方式; AERA 当通过所述物品需求接口接 权 Fil 要 求 书"
+P041;Publicação de demandas e casamento oferta-procura;Reivindicação independente;"页 的方法,其特征在于,所述方法包括: 提供闲置物品共享平台; 接收用户发送的闲置物品提供请求; 接收用户发送的闲置物品需求请求; 根据物品提供请求和 EZ [= 物品需求请求,将所述闲置物品的1 oP foil LAS A AE STIS E"
+P043;Monitoramento do item durante o uso;Reivindicação independente;"가정보와 게스트의 공유물에 대한 평가정보를 수집하는 공유경제 플랫폼과; 상기 공유물 공간내에 설치된 다수의 센서노드들 및 디바이스들로부터 상기 공유물 및 상기 공유물에 설치된 시 설기기의 상태 정보를 수집하고 상기 공유"
+P043;Avaliação entre usuários;Reivindicação independente;"1 호스트의 대여 대상인 공유물에 관한 정보를 등록하고 다수의 게스트들에게 공개하며 게스트의 공유물에 대한 평가정보와 게스트의 공유물에 대한 평가정보를 수집하는 공유경제 플랫폼과; 상기 공유물 공간내에 설치된 다수의 센"
+P043;Pontuação de crédito ou índice de confiança;Reivindicação independente; 호스트의 타 소셜네트워크에서의 활동정보와 게스트의 타 소셜네트워크에서의 활동정보를 기반으로 상기 공유물의 트러스트 인덱스와 상기 호스트의 트러스트 인덱스와 상기 게스트의 트러스트 인덱스를 산출하는 신뢰정보제공서버를 포함한
+P044;Caução (depósito de garantia);Reivindicação independente;"결을 알린 후, 상기 이용자 단말기(20)는 상기 대여자 단말기(10)에서 입력된 대여체결정보가 수신되면, 보증금 및 대여기간에 따른 대여료 등의 결제과 정을 통해 결제완료정보를 입력받는 단계; 및, 상기 서버(30)는 "
+P045;Cálculo de indenização por dano ou perda;Reivindicação independente;1.一种基于互联网的体育用品共享平台 ,包括信息发布模块.运输模块`支付模块`预 模块体育中心管理模块`在线赔损模块体育器材预约模块,其特征在于: 所述信息发布模块包括体育用品筛选模块.地区筛选模块体育用品价格竞拍模块:所 述体育用
+P045;Verificação de identidade;Reivindicação dependente;述的一种基于互联网的体育用品共享平台 ,其特征在于:所述信息 发布模块还设有账户认证模块,所述账户认证模块根据用户提供的身份证信息.工作单位 认证信息提供一个登录账号,若无工作单位认证信息,则需提供信用卡账号信息。 
+P045;Leilão ou lances pelo aluguel;Reivindicação independente;中心管理模块`在线赔损模块体育器材预约模块,其特征在于: 所述信息发布模块包括体育用品筛选模块.地区筛选模块体育用品价格竞拍模块:所 述体育用品筛选模块用于对不同类型.不同品牌的体育用品进行筛选,所述地区筛选模块 于筛选固定阔值范围内所在线共享
+P046;Aluguel combinado com venda ou compra;Reivindicação independente;청구항 1 개인 간의 차량 공유 및 물품 매매 방법에 있어서, 상기 차량 공유 및 물품 매매는 공동주택 단지별로 이루어지는 것을 특징으로 하는 차량 공유
+P052;Caução (depósito de garantia);Reivindicação dependente;3.根据权利要求1所述的工具租赁方法，其特征在于，还包括步骤d，承租方客户端选择 押金模式，服务器验证承租方客户端押金是否满足条件，满足条件则获取承租许可，不满足 条件则向承租方客户端返回不满足承租许可结果
+P052;Pontuação de crédito ou índice de confiança;Somente descrita;
+P053;Cálculo de indenização por dano ou perda;Reivindicação dependente;法，其特征在于，所述方法还包括： 若接收到所述出租用户或者所述租入用户发送的售后申请，根据本次出租的商品类型 选用对应的定损细则，并按照所述定损细则确定出租用户和/或租入用户的赔偿金额。 
+P053;Registro do estado do item por imagens;Reivindicação independente;达的订单，并确认所述租入用户完成付款后， 向所述出租用户发送商品出租通知； 接收所述出租用户上传的用于表征商品出租状态的图片或者视频，并在接收所述出租 用户发送的发货通知后，将所述商品信息对应的物流信息推送给所述租入用户； 在所述租入用户收货时
+P055;Publicação de demandas e casamento oferta-procura;Reivindicação dependente;물품에 대한 검색 결과, 이용 기간, 이용 비용 정보를 어플 서버에 등록하는 수단, 대여 공급 정보와 대여 수요 정보를 매칭시켜주고, 대여거래시 히스토리를 어플서버의 데이터베이스에 업데이트 하는 업그레이드 수단을 포함하
+P056;Cálculo de indenização por dano ou perda;Reivindicação dependente;至少一个： 所述寄租商品的租赁价格； 所述寄租商品的一次租赁时长； 所述寄租商品的租赁期限对应的折扣；所述寄租物品的损坏赔偿； 所述寄租商品的折旧率； 所述寄租商品的寄租时长； 所述寄租商品的税费缴纳方式。 
+P056;Resolução de disputas;Reivindicação independente;
+P056;Contrato eletrônico e registro em blockchain;Reivindicação independente;1.一种基于区块链的租赁信息处理方法，包括： 通过租赁平台将寄租用户关于寄租商品的电子合约上传至所述区块链中，其中，所述 电子合约包括用于
+P056;Verificação de identidade;Reivindicação independente;驱动租赁平台执行寄租商品的收益分配；以及 通过租赁平台将所述寄租商品的商品信息上传至所述区块链中； 通过租赁平台或第三方身份认证平台对所述寄租用户进行身份认证，并将所述寄租用 户的身份认证信息或所述寄租用户的身份认证信息的摘要上传至所述区块链中
+P057;Publicação de demandas e casamento oferta-procura;Reivindicação independente;1.一种物品的共享方法，其特征在于，包括： 共享平台接收共享用户发布的物品的共享信息以及需求用户发布的物品的需求信息； 所述共享平台将所述共享信息与所述需求信息进行匹配； 所述共享平台根据信息的匹配度向所述共享用
+P059;Avaliação entre usuários;Somente descrita;
+P059;Aluguel combinado com venda ou compra;Reivindicação independente;적, 여행일정, 여행장소, 일행 여부의 정보가 포함되고, 상기 제공자의 여행 물품정보에는 여행물품의 종류, 판매 또는 대여가 가능한 지역, 가격 정보가 포함되며, 상기 전처리부는 여행 중 여행자의 역할을 의미하는 포지션
+P061;Monitoramento do item durante o uso;Reivindicação independente;"청구항 1 재화정보를 공유하고자 하는 사용자의 SNS 플랫폼 정보, 사용자가 등록하는 재화정보 및 위치정보를 저장하는 데이터베이스부(10); 사용자의 SNS 플랫폼을 통한 재화공유를 위하여, SNS 플랫폼에 등"
+P061;Aluguel combinado com venda ou compra;Somente descrita;
+P063;Caução (depósito de garantia);Reivindicação independente;息，所述物品借用 信息包括所述借用方的个人信息，请求借用的物品信息，借用地点，借用时间及结算账户， 所述结算账户用于支付押金及所述物品的租借费用； 在确认所述物品借用信息后，基于所述借用请求生成配送指令，所述配送指令携带有 配送时间，配送目的地
+P064;Contrato eletrônico e registro em blockchain;Reivindicação independente;1.一种基于区块链的物品租赁方法，其特征在于，包括： 接收物品租赁请求，确定物品租赁请求指示的请求租赁目标物品的物品租赁时间段、 租赁金额
+P065;Caução (depósito de garantia);Reivindicação dependente;"결을 알린 후, 상기 이용자 단말기(20)는 상기 대여자 단말기(10)에서 입력된 대여체결정보가 수신되면, 보증금 및 대여기간에 따른 대여료 등의 결제과 정을 통해 결제완료정보를 입력받는 단계; 및, 상기 서버(30)는 "
+P065;Verificação de identidade;Reivindicação dependente;
+P066;Seguro;Somente descrita;
+P066;Aluguel combinado com venda ou compra;Somente descrita;
+P067;Seguro;Reivindicação dependente;"청구항 2 제1 항에 있어서, 상기 물건 대여 허락 신호를 전송하는 단계 이후에, 상기 대여매칭서버는 보험인증서버로 대여자와 대출자 간의 물건 대여 계약에 대한 보험 가입 요청 신호를 전송 하는 단계; 및 상기 보"
+P067;Cálculo de indenização por dano ou perda;Somente descrita;
+P067;Contrato eletrônico e registro em blockchain;Reivindicação independente;"요청 신호를 전송하는 단계; 신호 보존부는 상기 물건 대여 요청 신호를 외부의 다른 보존 서버들에 전송하여 분산 저장하는 단계; 상기 대여자 터미널은 상기 대여매칭서버로 상기 물건 대여 허락 신호를 전송하는 단계; 상기"
+P068;Caução (depósito de garantia);Reivindicação independente;"여기간과 상기 대여 기준 비용으로 산출된 총 대여 비용 및 상기 총 대여 비용에 대한 정해진 비율로 산출된 보증금을 상 기 이용자 단말기로 청구하는 비용산출부; 상기 이용자 단말기로부터 상기 보증금과 총 대여 비용이 입금"
+P068;Retenção ou garantia do pagamento;Reivindicação independente;" 기 이용자 단말기로 청구하는 비용산출부; 상기 이용자 단말기로부터 상기 보증금과 총 대여 비용이 입금되는 가상계좌를 생성하는 가상계좌 생성부; 상기 대여자 단말기로부터 상품 발송 완료가 수신되면 상기 가상계좌에 입금된 상"
+P068;Resolução de disputas;Somente descrita;
+P068;Pontuação de crédito ou índice de confiança;Reivindicação independente;가하여 산출된 이용자 점수를 누적하여 저장하고, 동 일 이용자의 누적된 이용자 점수의 평균 점수를 산출하는 신용평가부를 포함하고, 상기 경매 제어부는, 상기 복수개의 이용자단말기 각각의 상기 평균 비용이 동일한 경우에,
+P068;Leilão ou lances pelo aluguel;Reivindicação independente; 총 대여비용을 하한가로 설정하고, 상기 복수개의 이용자단말기 각각으로부터 정해진 횟수동안 비공개로 수신된 경매 비용으로부터 각 이용자단말기의 평균 비용을 산출하며, 상기 복수개의 이용자단말기 각각의 상기 평균 비용을 
+P069;Seguro;Somente descrita;
+P071;Caução (depósito de garantia);Somente descrita;
+P071;Avaliação entre usuários;Reivindicação dependente;의 지인 정보를 갖는 대출자를 검색하고, 물건 중개 시스템은, 상기 검색된 대출자의 지인의 단말기로 대출자 평가 요청을 전송하고, 상기 지인의 단말기로부터 전송된 대출자 평가 정보를 전송받으며, 대출자 평가 정보에 따른
+P071;Publicação de demandas e casamento oferta-procura;Reivindicação independente;"와 연결되는 물건 중개 시스템에 있어서, 대여자의 단말기로부터 대여 정보를 접수받고, 대출자의 단말기로부터 대출 정보를 접수받는 정보 접수부; 대여 정보에 대응되는 대출 정보를 검색하고 상기 검색된 대출 정보를 대여자의 단말"
+P072;Verificação de identidade;Reivindicação independente;
+P072;Aluguel combinado com venda ou compra;Reivindicação independente;청구항 1 공동 주택의 입주민들간 물품 대여, 물품 기부, 물품 판매, 재능 기부 및 재능 판매를 포함하는 나눔 서비스들 을 제공하는 입주민용 온라인 나눔 장터 서비스 방법에 
+P073;Registro do estado do item por imagens;Reivindicação independente;이션과 그 물품을 대여한 하나 이상의 이용자의 이용 애플리케이션 중에 서 적어도 하나의 애플리케이션에 의해 촬영된 물품 이미지를 수신하여 검수용 이미지 저장부에 저장하는 물품 이미지 등록부, 및 대여자로부터 대여용 소유
+P074;Avaliação entre usuários;Reivindicação independente;ンとを備え、 前記管理サーバは、ユーザデータベース、提供データベース、リクエストデータベース、 マッチングデータベース、評価データベースおよび報酬データベース、を含み、 前記アプリケーションは、 商品およびサービスの提供を希望する貸主ユーザのク
+P074;Publicação de demandas e casamento oferta-procura;Reivindicação independente;レンタルシステムを実行させるた めのアプリケーションとを備え、 前記管理サーバは、ユーザデータベース、提供データベース、リクエストデータベース、 マッチングデータベース、評価データベースおよび報酬データベース、を含み、 前記アプリケーションは、 商品
+P075;Retenção ou garantia do pagamento;Somente descrita;
+P075;Resolução de disputas;Somente descrita;
+P076;Caução (depósito de garantia);Reivindicação dependente;4.根据权利要求1所述的一种影视器材共享租赁平台，其特征在于：所述租赁价格包括 押金与租金，交易时所述押金冻结在所述共享租赁系统(3)中，交易完成后所述共享租赁系 统(3)自动退还到指定支付账户，用户通过
+P076;Pontuação de crédito ou índice de confiança;Reivindicação dependente;料至 所述共享租赁系统(3)，由所述共享租赁系统(3)通过云端服务器(2)采集大数据，并自动进 行身份判定给予一定的免押信用金额，所述大数据包括征信记录、信用记录； 所述租金以天为单位计算，首日不足一天的按1天计算，超过1天的，不超过8小时，按
+P079;Caução (depósito de garantia);Reivindicação independente;并根据所述闲置物品的共享条件，对所述使用请 求进行验证； 验证通过后，根据预先部署的智能合约以及所述共享条件，获取租金及押金，并将对应 的租借记录写入区块链中。 
+P079;Cálculo de indenização por dano ou perda;Reivindicação dependente;于区块链技术的闲置物品共享方法，其特征在于，所述 方法还包括： 对租借完毕的所述闲置物品进行检查，确定所述闲置物品是否有损耗； 在所述闲置物品有损耗的情况下，根据所述闲置物品的损耗程度扣除相应的押金； 在所述闲置物品没有损耗的情况下，确定在第二
+P079;Contrato eletrônico e registro em blockchain;Reivindicação independente;1.一种基于区块链技术的闲置物品共享方法，其特征在于，所述方法包括： 基于区块链框架部署区块链平台； 接收闲置物品的上链请求，并确定对应的
+P079;Avaliação entre usuários;Reivindicação dependente; 权 利 要 求 书 1/2 页 2 CN 112712408 A 2 接收针对所述闲置物品的若干使用请求； 根据预设的评价制度，以及所述若干使用请求对应的各租借节点的地理位置信息、租 借时长、租借记录，分别确定对所述若干使用请求的评分； 接收
+P080;Pontuação de crédito ou índice de confiança;Reivindicação dependente;
+P080;Publicação de demandas e casamento oferta-procura;Reivindicação independente;工具的类别、重量和体积分类存放工具； 移动端，包括： 借入信息发送单元，用于发送借入账户的工具的借入请求，借入账户为工具需求者的 账户，借入请求包括借入条件； 借出信息发送单元，用于发送借出账户的工具的借出请求，借出账户为工具提供者的 账户，借
+P081;Resolução de disputas;Somente descrita;
+P081;Avaliação entre usuários;Reivindicação dependente; 상기 대여가 성사되면 알려주는 경과시간 표시하고, 상기 '신고하기', '알림끄기', '구매자 또는 판매자 평가하기', '대화상대 차단하기', 구매자 또는 판매자 정보 보기', '채팅방나가기' 등의 정보를 제공하는 것을
+P081;Aluguel combinado com venda ou compra;Reivindicação independente;"대여거래를 위한 플랫폼을 생성하는 앱 플랫폼 생성부; 상기 대여 거래 앱 플랫폼에 의해 생성된 공간에 대여 구매자가 업로드 된 물품을 확인 할 수 있는 이미지 및 상세정보들이 업로드된 메인화면 공간부; 상기 대여 거래 "
+P082;Seguro;Reivindicação dependente;청구항 2 제1 항에 있어서, 상기 대여중계서버로부터 대여자와 대출자 간의 물품 대여 계약에 대한 보험 가입 요청 신호를 수신하면, 상기 물품 대여 계약에 대한 보험 계약의 가부를 판단하여 보험 가입 응답 신호
+P082;Cálculo de indenização por dano ou perda;Somente descrita;
+P082;Contrato eletrônico e registro em blockchain;Reivindicação independente;는, 상기 복수의 대출자 단말과 상기 복수의 대여자 단말 사이에 이루어지는 물품 대여 거래 에 대한 정보를 분산 처리하여 저장하는 것을 특징으로 하는 피어투피어 기반 물품 대여 시스템. 
+P084;Caução (depósito de garantia);Reivindicação dependente;에 있어서, 상기 단계 (4)에서는, 인증한 상기 렌탈 이용자가 상기 렌탈 물품의 파손 또는 분실에 대비한 보증금을 결제하였으면, 상기 렌탈 물품 이 입고된 무인 보관함(10)의 잠금장치를 제어하는 것을 특징으로 하는, 
+P087;Aluguel combinado com venda ou compra;Somente descrita;
+P089;Retenção ou garantia do pagamento;Reivindicação independente;"을 배송할 때 중 어느 하나의 시점에 상기 마켓 서버(20)의 대금 보증 요청에 대해 대금 보증을 수행하는 보증 서버(40); 를 포함하는 것을 특징으로 하고, 상기 판매 단말기(10) 또는 상기 고객 단말기(30)는, 스마"
+P089;Verificação de identidade;Reivindicação independente;청구항 1 마켓 서버(20)에 사용자 인증을 거친 후, 판매하고자 하는 중고 물품을 등록하고, 중고 물품을 등록할 때 고객 이 중고 물품을 렌탈할 수
+P089;Publicação de demandas e casamento oferta-procura;Somente descrita;
+P089;Aluguel combinado com venda ou compra;Reivindicação independente;청구항 1 마켓 서버(20)에 사용자 인증을 거친 후, 판매하고자 하는 중고 물품을 등록하고, 중고 물품을 등록할 때 고객 이 중고 물품을 렌탈할 수 있는 판매 조건을
+P090;Cálculo de indenização por dano ou perda;Não verificado;
+P090;Pontuação de crédito ou índice de confiança;Não verificado;
+P091;Inspeção do item pelo intermediário;Reivindicação independente;" 사용자 단말로부터 상품 공유 신청을 수신하는 공유 신청 수신부; 렌탈 가능 조건의 만족도 여부를 판단하는 검수부; 공유 신청 상품을 렌탈 가능 상품의 목록에 추가하는 렌탈 상품 등록부; 상기 제2 사용자에게 제공할 멤"
+P091;Aluguel combinado com venda ou compra;Somente descrita;
+P092;Inspeção do item pelo intermediário;Somente descrita;
+P092;Publicação de demandas e casamento oferta-procura;Reivindicação independente;"청구항 1 GPS모듈을 통해 위치 정보를 송수신하며 대여가 필요한 물품을 신청하고 등록하는 수요자 단말기와 공급자단말 기; 상기 수요자단말기로부터 수신한 수요 물품 정보와 상기 공급자단말기로부터 수신한 "
+P093;Aluguel combinado com venda ou compra;Somente descrita;
+P096;Aluguel combinado com venda ou compra;Não verificado;
+P097;Caução (depósito de garantia);Reivindicação independente;1차촬영단계와 2차촬영단계에서 획득한 이미지데이터를 비교하여 손상 여부 및 손상 정도에 상응한 보상금 액을 보증금에서 차감한 금액을 산출하는 렌털비용정산단계와, 대여자 ID 및 패스워드를 렌털서버에서 인증하 고 렌털서버에
+P097;Cálculo de indenização por dano ou perda;Reivindicação independente;계와, 상기 1차촬영단계와 2차촬영단계에서 획득한 이미지데이터를 비교하여 손상 여부 및 손상 정도에 상응한 보상금 액을 보증금에서 차감한 금액을 산출하는 렌털비용정산단계와, 대여자 ID 및 패스워드를 렌털서버에서 인증하
+P097;Registro do estado do item por imagens;Reivindicação independente; 신호데이터가 렌털서버로 전송되는 물품입고단계와, 중개함에 내장된 카메라모듈이 가동하여 렌털물 품 관련 영상이미지데이터를 얻고 이를 렌털서버로 전송하는 1차촬영단계와, 이용자 ID 및 패스워드를 렌털서버 에서 인증하고 렌
+P097;Resolução de disputas;Reivindicação independente; 신호데이터가 렌털서버로 전송되는 물품입고단계와, 중개함에 내장된 카메라모듈이 가동하여 렌털물 품 관련 영상이미지데이터를 얻고 이를 렌털서버로 전송하는 1차촬영단계와, 이용자 ID 및 패스워드를 렌털서버 에서 인증하고 렌
+P098;Monitoramento do item durante o uso;Reivindicação independente;"가정보와 게스트의 공유물에 대한 평가정보를 수집하는 공유경제 플랫폼과;상기 공유물 공간내에 설치된 다수 의 센서노드들 및 디바이스들로부터 상기 공유물 및 상기 공유물에 설치된 시설기기의 상태 정보를 수집하고 상 기 공유"
+P098;Avaliação entre usuários;Reivindicação independente;"1 호스트의 대여 대상인 공유물에 관한 정보를 등록하고 다수의 게스트들에게 공개하며 게스트의 공유물에 대한 평가정보와 게스트의 공유물에 대한 평가정보를 수집하는 공유경제 플랫폼과;상기 공유물 공간내에 설치된 다수 의 센"
+P098;Pontuação de crédito ou índice de confiança;Reivindicação independente; 호스트의 타 소셜네트워크에서의 활동정보와 게스트의 타소셜네트워크에서의 활동정보를 기 반으로 상기 공유물의 트러스트 인덱스와 상기 호스트의 트러스트 인덱스와상기 게스트의 트러스트 인덱스를 산 출하는 신뢰정보제공서버를 포함한
+P100;Seguro;Somente descrita;
+P100;Aluguel combinado com venda ou compra;Reivindicação independente;정보를 대여하려는 상기 제 2 수요자에게 제공하 고 결제 요청을 하는 단계를 포함하는, 중고 아동아동용품 재판매 및 대여를 위한 구매자와 판매자 매칭 시스템. 
+P102;Avaliação entre usuários;Reivindicação independente;出し価格や利用可能時間を設定す る手段と、 ユーザーが必要なアイテムのリストを閲覧する手段と、 予約、支払い、ユーザーの評価などの貸し出しプロセスを実現する手段とを含むシステ ム。 
+P103;Pontuação de crédito ou índice de confiança;Reivindicação independente;7)摘要 本發明係關於一借物系統,該借物系統包含有一借物平台,該借物平台可供加入而成為該借物 平台之一會員,其具有一借物點數獲得手段,其係用以供會員取得借物點數,並讓各會員的借物點 數問因借物而相互流動,一借物發佈手段,用以供任一會員發佈借出物
+P104;Caução (depósito de garantia);Reivindicação dependente;어서, 상기 플랫폼 관리서버는 상기 사용자 단말로 대여물품의 가격, 크기, 상태에 따라 기간별 대여비용 및 보증금액을 설정하기 위한 기능을 지원하는 것을 특징으로 하는, 개인물품 대여/판매/교환 서비스를 지원하는 시스템.
+P104;Aluguel combinado com venda ou compra;Reivindicação independente;청구항 1 개인물품 대여/판매/교환 플랫폼을 이용하여 자신이 보유한 물품에 대하여, 대여, 판매 또는 교환할 물품정보를 제공하는 사용자 
+P105;Pontuação de crédito ou índice de confiança;Reivindicação independente;platform having multiple members and comprising a borrowing point gaining means for providing bor- rowing points to each memb
+P106;Caução (depósito de garantia);Reivindicação dependente;청구항 2 제 1 항에 있어서, 상기 (A) 단계의 대여물품정보는, 대여 수수료 또는 보증금 중 어느 하나 이상을 포함하는 것을 특징으로 하는 오픈 마켓서버를 이용한 렌탈 서 비스 제공 방법. 
+P106;Retenção ou garantia do pagamento;Reivindicação independente;"는 단계와; (C) 상기 가입자에 의해 배송된 물품의 수취여부를 상기 사용자로부터 확인받는 단계와; (D) 보증기관의 서버가 가입자에게 대금정산을 수행하도록 상기 물품의 수취여부를 보증기관 서버에 전달하는 단계와; (E) "
+P106;Verificação de identidade;Somente descrita;
+P108;Caução (depósito de garantia);Reivindicação independente;" 제1 단계; 상기 서버가 렌탈 요청자 단말로부터 상기 렌탈 대상 물품에 대한 렌탈 요청 신호를 수신한 후 보증금 및 렌탈 료를 처리하는 제2 단계; 상기 서버가 상기 렌탈 제공자 단말에 제공하는 검수 애플리케이션을 통해"
+P108;Seguro;Reivindicação dependente;청구항 6 제1항에 있어서, 상기 제2 단계는, 상기 렌탈 요청자 단말을 통해 선택되는 보험 상품의 가입 여부에 따라 상기 보증금 액수를 결정하고 이에 따라 보증금을 처리하는 것을 특징으로 하는 물품
+P108;Inspeção do item pelo intermediário;Reivindicação independente;"신호를 수신한 후 보증금 및 렌탈 료를 처리하는 제2 단계; 상기 서버가 상기 렌탈 제공자 단말에 제공하는 검수 애플리케이션을 통해 상기 렌탈 제공자 단말이 상기 렌탈 대상 물품에 대한 1차 검수를 수행하는 제3 단계;"
+P108;Aluguel combinado com venda ou compra;Reivindicação independente;"는 제5 단계; 렌탈 기간 종료 후 상기 서버가 상기 렌탈 요청자 단말의 요청 신호에 따라 기간 연장 또는 구매 여부를 결정하 는 제6 단계; 렌탈 기간 종료로 판단된 경우, 상기 렌탈 요청자 단말이 상기 검수 애플리케"
+P110;Caução (depósito de garantia);Reivindicação dependente;"청구항 1에 있어서, 상기 대여품에 대한 대여금 및 보증금을 설정하는 단계; 상기 대여금 및 보증금에 대한 결제 완료 메시지를 제공받는 단계; 상기 대여품 대여 확인"
+P110;Seguro;Somente descrita;
+P110;Cálculo de indenização por dano ou perda;Somente descrita;
+P110;Registro do estado do item por imagens;Reivindicação independente;
+P110;Avaliação entre usuários;Somente descrita;
+P110;Verificação de identidade;Reivindicação independente;"로파일 정보를 제공받는 단계; 상기 대여자의 프로파일 정보 및 상기 차용인의 프로파일 정보에 기초하여 사용자인증 및 지역인증을 수행하는 단계; 상기 대여자의 프로파일 정보 및 상기 차용인의 프로파일 정보를 사용자DB에 "
+P111;Registro do estado do item por imagens;Reivindicação independente;
+P111;Monitoramento do item durante o uso;Reivindicação dependente;
+P111;Pontuação de crédito ou índice de confiança;Reivindicação independente;
+P111;Aluguel combinado com venda ou compra;Somente descrita;
+P112;Caução (depósito de garantia);Somente descrita;
+P112;Avaliação entre usuários;Reivindicação independente;
+P112;Pontuação de crédito ou índice de confiança;Reivindicação independente;
+P112;Verificação de identidade;Reivindicação independente;
+P112;Compra coletiva com uso compartilhado;Reivindicação independente;
+P114;Caução (depósito de garantia);Somente descrita;
+P114;Seguro;Somente descrita;
+P114;Cálculo de indenização por dano ou perda;Reivindicação independente;"및 반납 일정을 생성하고 이를 추적 관리하는 배송 관리부; 및 반납된 캠핑용품의 상태를 평가하여 정산 또는 배상 금액을 산출하는 정산 관리부를 포함하고, 상기 지능형 연산부는, 상기 대여 제공자가 등록하는 캠핑용품 이미"
+P114;Registro do estado do item por imagens;Reivindicação independente;청구항 1 대여 제공자가 등록한 캠핑용품 이미지를 CNN 기반 인공지능 모델로 분석하여 카테고리 및 상품명을 분류하여 대여 물품에 대한 분류 결과 정보를 
+P114;Monitoramento do item durante o uso;Reivindicação independente;
+P115;Monitoramento do item durante o uso;Reivindicação independente; 信息，将其分别与签署项目施工区域和签署身份信息进行对比，判断是否启动电力施工装 备； S2、实时监测电力施工装备的移动轨迹和功能使用数据，当电力施工装备的移动轨迹 超出电力施工装备的活动区域时，并记录超出电力施工装备的活动区域的偏离时长； S
+P115;Pontuação de crédito ou índice de confiança;Reivindicação independente;个租用周期内的操作日志，从中获取各次操作记录的 作业数据，根据作业数据分析异常使用行为的严重程度； S5、以申请方的历史信用分为基础分值，结合异常使用行为的严重程度以及串货次数 计算当前信用分，根据当前信用分采取相应策略。 
